@@ -1,3 +1,10 @@
+body {
+    /* background-color: rgb(45, 13, 119); */
+    background-image: linear-gradient(to bottom right, rgb(45, 13, 119), rgb(223, 89, 167));
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
 .container {
     background-color: aliceblue;
     max-width: 400px;
@@ -15,7 +22,7 @@
     background-color: black;
     color: aliceblue;
     border-radius: 12px 12px 0px 0px;
-    padding: 25px 10px 25px 0px;
+    /* padding: 25px 10px 25px 0px; */
 }
 
 .buttons {
@@ -37,13 +44,6 @@
     font-size: 20px;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-body {
-    /* background-color: rgb(45, 13, 119); */
-    background-image: linear-gradient(to bottom right, rgb(45, 13, 119), rgb(223, 89, 167));
-    background-repeat: no-repeat;
-    height: 100%;
 }
 
 .button:hover {
