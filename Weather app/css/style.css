@@ -52,3 +52,10 @@ body {
   outline: none;
   border: 3px solid steelblue;
 }
+.notification {
+  background-color: white;
+  display: none;
+}
+.notification p{
+  x
+}
