@@ -16,7 +16,7 @@ input.addEventListener("keyup", function (event) {
     event.preventDefault();
 
     city = input.value
-    getSeearchWeather(city)
+    getSearchWeather(city)
     console.log(city)
   }
 })
@@ -51,7 +51,7 @@ function showError(error) {
   notificationElement.style.display = "block";
   notificationElement.innerHTML = `<p> ${error.message} </p>`
 }
-function getSeearchWeather(city) {
+function getSearchWeather(city) {
   let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`
 
   fetch(api)
