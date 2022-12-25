@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>My Weather App</title>
-</head>
+  </head>
 
-<body>
-    Hello world
-</body>
+  <body>
+    <div class="container">
+      <div class="app-title">
+        <p>Weather Info</p>
+        <input
+          type="text"
+          id="search"
+          placeholder="Enter the city"
+          autocomplete="off"
+        />
 
+        <div class="location-icon">
+          <img src="./media/icons/icons8-location-100.png" alt="" />
+        </div>
+      </div>
+      <div class="notification"></div>
+      <div class="weather-container">
+        <div class="weather-icon">
+          <img src="./media/icons/icons8-partly-cloudy-day-100.png" alt="" />
+        </div>
+
+        <div class="temperature-value">
+          <p>- * <span>C</span></p>
+        </div>
+        <div class="temperature-description">
+          <p>-</p>
+        </div>
+        <div class="location">
+          <p>-</p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
